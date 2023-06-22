@@ -1,0 +1,129 @@
+/* sets body styles */
+body {
+  margin:0;
+  padding:25px;
+  background-color: white;
+}
+
+/* sets the styles for question container */
+.questionsContainer {
+  color: black;
+  font-size: 32px;
+  line-height: 1.5;
+  margin:25px;
+  padding:25px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* sets style for buttons in question container */
+.questionsContainer button {
+  margin:10px;
+  padding:10px;
+  background-color: rgb(14, 54, 99);
+  color:white;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+/* question button hover style */
+.questionsContainer button:hover {
+  background-color:#055879;
+}
+
+/* sets style for timer container */
+#timerContainer {
+  color: white;
+  font-size: 32px;
+  line-height: 1.5;
+  margin:15px;
+  padding:15px;
+  background-color: rgb(14, 54, 99);
+  border: 2px solid #333333;
+  border-radius: 5px;
+  position:relative;
+  float:right;
+  right:25px;
+  width:30px;
+  height:auto;
+}
+
+/* sets styles for question response container */
+#responseContainer {
+  font-size: 22px;
+  border-top: 2px solid  rgb(14, 54, 99);
+  margin:15px;
+  padding:15px;
+  width:100px;
+  height:auto;
+  position:relative;
+  left:47%;
+}
+
+/* class to hide the container */
+.display-hide {
+  display:none;
+}
+
+/* class to show the container */
+.display-show {
+  display:block;
+}
+
+/* style for view high score button */
+#viewScoresContainer {
+  color: white;
+  font-size: 16.5px;
+  line-height: 1.5;
+  margin:15px;
+  padding:15px;
+  background-color: rgb(14, 54, 99);
+  border: 2px solid #333333;
+  border-radius: 5px;
+  position:relative;
+  float:left;
+  right:25px;
+  width:120px;
+  height:auto;
+  cursor: pointer;
+}
+
+/* hover style for view high score button */
+#viewScoresContainer:hover {
+  background-color:#055879;
+}
+
+/* sets the a tag style of high score button */
+#viewScoresContainer a {
+  color:white;
+  text-decoration: none;
+}
+
+/* go back button styles */
+#goback {
+  margin:10px;
+  padding:10px;
+  background-color: rgb(14, 54, 99);
+  color:white;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  cursor:pointer;
+}
+
+/* go back button hover style */
+#goback:hover {
+  background-color:#055879;
+}
+
+/* styles to display answers in ul */
+ul li {
+  background-color: #03405c;
+  color: white;
+  margin: 15px;
+  padding:10px;
+  font-size:22px;
+  width:30%;
+}

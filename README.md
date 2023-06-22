@@ -13,6 +13,8 @@ SO THAT I can gauge my progress compared to my peers
 ```
 ![image](https://github.com/SanjeethTharmarajah/timerquiz/assets/130941252/f46e74b6-943f-4202-b7ad-2bea1d60067d)
 
+https://sanjeeththarmarajah.github.io/timerquiz/
+
 ## Acceptance Criteria
 
 ```
